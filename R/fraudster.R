@@ -60,6 +60,11 @@ FraudsterClient <- R6::R6Class(
       cat(paste0("  locale: ", self$locale))
     },
 
+    # isced
+    isced = function(n = 1) {
+      ch_isced(n = n, locale = self$locale)
+    },
+
     # jobs
     job = function(n = 1) {
       ch_job(n = n, locale = self$locale)

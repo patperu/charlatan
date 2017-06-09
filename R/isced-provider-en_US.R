@@ -1,10 +1,10 @@
-isced_formats_en_en <- c(
+isced_formats_en_us <- c(
     '{{isced_broad_field}}',
     '{{isced_narrow_field}}',
     '{{isced_detailed_field}}'
 )
 
-isced_broad_field_en_en <- c('Generic programmes and qualifications',
+isced_broad_field_en_us <- c('Generic programmes and qualifications',
                              'Education',
                              'Arts and humanities',
                              'Social sciences, journalism and information',
@@ -16,7 +16,7 @@ isced_broad_field_en_en <- c('Generic programmes and qualifications',
                              'Health and welfare',
                              'Services')
 
-isced_narrow_field_en_en <- c('Basic programmes and qualifications',
+isced_narrow_field_en_us <- c('Basic programmes and qualifications',
                               'Literacy and numeracy',
                               'Personal skills and development',
                               'Education',
@@ -46,7 +46,7 @@ isced_narrow_field_en_en <- c('Basic programmes and qualifications',
                               'Security services',
                               'Transport services')
 
-isced_detailed_field_en_en <- c('Basic programmes and qualifications',
+isced_detailed_field_en_us <- c('Basic programmes and qualifications',
                                 'Literacy and numeracy',
                                 'Personal skills and development',
                                 'Education science',
